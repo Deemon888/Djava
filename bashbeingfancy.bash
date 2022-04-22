@@ -23,7 +23,7 @@ random=14
 randomize=5
 shebang='#!/bin/bash'
 smallsleep=on
-tord=truth
+tord=truth # <<< dont mind this
 tru=([0]="0" [1]="1" [2]="2" [3]="3" [4]="4" [5]="5" [6]="6")
 yn=n
 .help () 
