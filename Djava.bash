@@ -358,7 +358,7 @@ tord () {
         pick=${#d[@]}
         randomiz=$(($RANDOM % $pick))
         fi
-
+if [[ $tord == "truth" ]]; then
         if [[ ${tru[randomize]} == "0" ]]; then
                 read -e -r -p "have you ever made a script before? y/n > " yn
 
@@ -452,6 +452,7 @@ tord () {
                         fi
                 fi
         fi
+elif [[ $tord == "dare" ]]; then       
         if [[ ${d[randomiz]} == "0" ]]; then
                 sleep 1
                 echo -e "\n I dare u to try to do a backflip...just do it \n"
@@ -475,7 +476,7 @@ tord () {
                 echo -e "\n find out how to arp yourself \n"
         fi
 
-
+fi
 }
 
 69 () {
