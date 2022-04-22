@@ -52,10 +52,6 @@ fi
 
 # if commands #
 
-pwd=$(pwd)
-
-# pwd #
-
 echo -en "WELL HELLO\n";sleep 1
 echo -e "       do whatever you want and type '.help' for a list of commands\n\a"
 
@@ -64,6 +60,9 @@ echo -e "       do whatever you want and type '.help' for a list of commands\n\a
 
 while :
 do
+        pwd=$(pwd)
+
+        # pwd #
 
         read -r -e -p "$HOSTNAME >>> " ccmd opt opt2 opt3 opt4
 
