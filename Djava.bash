@@ -367,7 +367,7 @@ if [[ $tord == "truth" ]]; then
                         echo -e "\n its all good \n"
                 fi
         elif [[ ${tru[randomize]} == "1" ]]; then
-                read -e -r -p "have u used cacu while runnign this script rn? y/n > " yn
+                read -e -r -p "have u used cacu while running this script rn? y/n > " yn
                         if [[ -z $A ]]; then
                                 if [[ $yn == "y" ]]; then
                                         echo -e "\n LIES..."
