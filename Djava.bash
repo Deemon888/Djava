@@ -22,10 +22,6 @@ FILE=/usr/bin/Djava
 
 # command file #
 
-pwd=$(pwd)
-
-# pwd #
-
 smallsleep=on
 
 # smallsleep is used for the spam command and more maybe #
@@ -55,6 +51,10 @@ if [[ $autodebugcmdscript == "on" ]]; then
 fi
 
 # if commands #
+
+pwd=$(pwd)
+
+# pwd #
 
 echo -en "WELL HELLO\n";sleep 1
 echo -e "       do whatever you want and type '.help' for a list of commands\n\a"
