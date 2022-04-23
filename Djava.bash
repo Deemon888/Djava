@@ -28,7 +28,7 @@ smallsleep=on
 
 morenumbersfordicerole=on
 localhost=127.0.0.1
-
+interface=wlan0
 
 # ^ vars ^ #
 
